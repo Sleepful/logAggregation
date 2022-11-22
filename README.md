@@ -4,6 +4,8 @@ This was a takehome test in which I spent around 20 hours and got nothing in ret
 
 To look at the solution, look at [PULL-REQUEST](https://github.com/Sleepful/logAggregation/pull/1.)
 
+To look at other code challenges, look here: https://github.com/Sleepful/CodingChallenges
+
 <h2>Log Aggregation: Print X sorted lists in order.</h2>
 
 Imagine you have any number of servers (1 to 1000+) that generate log files for your distributed app. Each log file can range from 100MB - 512GB in size. They are copied to your machine which contains only 16GB of RAM.
