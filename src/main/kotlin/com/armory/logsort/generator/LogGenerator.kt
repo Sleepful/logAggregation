@@ -9,7 +9,10 @@ class LogGenerator(val fileCount: Int, val avgLineCount: Long) {
     fun generate(filePath: String) {
         File(filePath).mkdirs()
         val files = (0..fileCount).map { File("${filePath}log_$it.log") }
-        files.forEach { it.createNewFile() }
+        files.forEach {
+            it.delete()
+            it.createNewFile()
+        }
 
         var currentTs = Instant.ofEpochSecond(925543800L)
         val linesCountToGenerate = fileCount*avgLineCount
