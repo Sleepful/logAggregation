@@ -2,7 +2,7 @@
 
 This was a takehome test in which I spent around 20 hours and got nothing in return from the entity that sent it to me. They lied to me and told me they could meet my pay-rate, after I went through all their hoops they offered me around half of what we had agreed.
 
-To look at the solution, look at https://github.com/Sleepful/logAggregation/pull/1.
+To look at the solution, look at [PULL-REQUEST](https://github.com/Sleepful/logAggregation/pull/1.)
 
 <h2>Log Aggregation: Print X sorted lists in order.</h2>
 
